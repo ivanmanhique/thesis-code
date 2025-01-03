@@ -44,7 +44,7 @@ Ensure DVC is set up correctly, then pull all tracked files:
 fastapi run
 ```
 ## Project Structure
-
+```bash
 .
 ├── .dvc/                 # DVC configuration and cache
 ├── app/                  # Main application code
@@ -58,7 +58,7 @@ fastapi run
 │   └── thesis.ipynb      # Thesis-related analysis
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
-
+```
 ### Notes
 - Make sure to have the appropriate permissions to access the DVC remote storage.
 - For any issues, feel free to open a new [issue](https://github.com/ivanmanhique/thesis-code/issues/new)
