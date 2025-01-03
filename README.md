@@ -1,7 +1,7 @@
 # Thesis
 
 ## Overview 
----
+
 This project is designed to forecast stock prices using machine learning and time series analysis. Specifically, it focuses on predicting Apple (AAPL) stock prices, leveraging historical data and advanced modeling techniques. While the project is tailored for AAPL stock, the methodology and code can be applied to any stock with appropriate data. It integrates DVC for data versioning and dependency tracking, ensuring reproducibility and efficient collaboration.
 ---
 ## Table of Contents
