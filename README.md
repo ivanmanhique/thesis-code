@@ -47,27 +47,16 @@ fastapi run
 
 .
 ├── .dvc/                 # DVC configuration and cache
-
 ├── app/                  # Main application code
-
 │   ├── main.py           # Entry point of the application
-
 │   └── predictor/        # Prediction logic
-
 │       └── model.py      # Model-related utilities
-
 ├── data/                 # Data files
-
 │   ├── model.h5          # Machine learning model
-
 │   └── scaler.pkl        # Scaler for data normalization
-
 ├── notebook/             # Jupyter notebooks for experimentation
-
 │   └── thesis.ipynb      # Thesis-related analysis
-
 ├── requirements.txt      # Python dependencies
-
 └── README.md             # Project documentation
 
 ### Notes
