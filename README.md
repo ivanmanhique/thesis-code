@@ -59,6 +59,6 @@ fastapi run
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 
-Notes
-	•	Make sure to have the appropriate permissions to access the DVC remote storage.
-	•	For any issues, feel free to open a new issue.
+### Notes
+- Make sure to have the appropriate permissions to access the DVC remote storage.
+- For any issues, feel free to open a new [issue](https://github.com/ivanmanhique/thesis-code/issues/new)
