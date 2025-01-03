@@ -45,32 +45,30 @@ fastapi run
 ```
 ## Project Structure
 
-├── .dvc
-│   ├── .gitignore
-│   ├── config
-│   └── tmp
-│       ├── btime
-│       ├── lock
-│       ├── rwlock
-│       └── rwlock.lock
-├── .dvcignore
-├── .gitignore
-├── app
-│   ├── .DS_Store
-│   ├── __init__.py
-│   ├── main.py
-│   └── predictor
-│       ├── __init__.py
-│       └── model.py
-├── data
-│   ├── .gitignore
-│   ├── model.h5
-│   ├── model.h5.dvc
-│   ├── scaler.pkl
-│   └── scaler.pkl.dvc
-├── notebook
-│   └── thesis.ipynb
-└── requirements.txt
+.
+├── .dvc/                 # DVC configuration and cache
+
+├── app/                  # Main application code
+
+│   ├── main.py           # Entry point of the application
+
+│   └── predictor/        # Prediction logic
+
+│       └── model.py      # Model-related utilities
+
+├── data/                 # Data files
+
+│   ├── model.h5          # Machine learning model
+
+│   └── scaler.pkl        # Scaler for data normalization
+
+├── notebook/             # Jupyter notebooks for experimentation
+
+│   └── thesis.ipynb      # Thesis-related analysis
+
+├── requirements.txt      # Python dependencies
+
+└── README.md             # Project documentation
 
 ### Notes
 - Make sure to have the appropriate permissions to access the DVC remote storage.
