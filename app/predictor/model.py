@@ -10,8 +10,8 @@ import os
 # Get the directory of the current file (predictor.py)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Construct the absolute path to scaler.pkl
-scaler_path = os.path.join(current_dir, '../data/scaler.pkl')
-model_path = os.path.join(current_dir, '../data/model.h5')
+scaler_path = os.path.join(current_dir, '../../data/scaler.pkl')
+model_path = os.path.join(current_dir, '../../data/model.h5')
 # Load the scaler and app
 scaler = joblib.load(scaler_path)
 model = load_model(model_path)
