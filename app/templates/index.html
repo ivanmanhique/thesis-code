@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Forecast</title>
+</head>
+<body>
+    <center>
+        <div class="logo-div">
+            <img src="../static/resources/logo.svg" alt="logo">
+        </div>
+
+        <div class="form-div">
+            <h2>
+                Welcome,
+            </h2>
+            <p>
+                Choose the number of days ahead you would like to forecast the stock price
+            </p>
+            <form action="/forecast" method="get">
+                <!-- Add the 'name' attribute to the input -->
+                <input 
+                    type="number" 
+                    id="text" 
+                    name="number_of_days_to_forecast" 
+                    placeholder="Number of days ahead to forecast" 
+                    required
+                >
+                <center>
+                    <input type="submit" value="FORECAST" id="button">   
+                </center>
+            </form>
+        </div>
+    </center>
+</body>
+</html>

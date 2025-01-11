@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins';
+}
+
+.logo-div {
+    margin-top: 13%;
+    margin-bottom: 5rem;
+}
+
+body {
+    background-color: #09090B;
+}
+
+p {
+    color: #D4D4D8;
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color: #FAFAFA;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+#text, #button {
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+#button {
+    margin-top: 3rem;
+    background-color: #8AF0B2;
+    border: none;
+    color: #042F2E;
+    font-weight: 800;
+    cursor: pointer;
+    width: 40%;
+}
+
+#text {
+    background-color: #0C0C0E;
+    border: 1px solid #27272A;
+}
+
+.form-div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#text {
+    background-color: #0C0C0E; /* Keeps the background dark */
+    border: 1px solid #27272A; /* Border for a clean look */
+    color: #FFFFFF; /* Ensures the typed text is visible (white text) */
+    font-size: 1rem; /* Adjust font size for readability */
+    padding: 0.7rem; /* Adds padding inside the input */
+    border-radius: 0.5rem; /* Adds rounded corners */
+}
+
+#text::placeholder {
+    color: #727272; /* Placeholder text color for better contrast */
+}

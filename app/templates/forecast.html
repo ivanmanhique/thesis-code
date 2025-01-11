@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/forecast.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Results</title>
+</head>
+<body>
+    <center>
+        <div class="logo-div">
+            <img src="../static/resources/RESULT.svg" alt="logo">
+        </div>
+
+        <div class="results-div">
+            <!-- Render the saved image -->
+            {% if image_url %}
+            <img src="{{ image_url }}" alt="Forecast Image">
+            {% else %}
+            <p>No forecast image available.</p>
+            {% endif %}
+        </div>
+    </center>
+    <center class="back">
+        <a href="/" id="button">back</a>
+    </center>
+</body>
+</html>
